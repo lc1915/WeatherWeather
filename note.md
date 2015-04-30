@@ -32,5 +32,9 @@ private void showSystemUI() {
 ##Android View的绘制流程
 Drawing the layout is a two pass process: a **measure** pass and a **layout** pass. The measuring pass is implemented in `measure(int, int)` and is a **top-down traversal of the View tree**. Each View pushes dimension specifications down the tree during the recursion. At the end of the measure pass, every View has stored its measurements. The second pass happens in `layout(int, int, int, int)` and is also top-down. During this pass each parent is responsible for positioning all of its children using the sizes computed in the measure pass.
 
+##Android debugging
+1. http://developer.android.com/tools/debugging/index.html 
+2. DDMS相关，使用等等
+
 ##remain to be done
 getWindow().getDecorView()
