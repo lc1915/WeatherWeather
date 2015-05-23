@@ -32,9 +32,12 @@ private void showSystemUI() {
 ##Android View的绘制流程
 Drawing the layout is a two pass process: a **measure** pass and a **layout** pass. The measuring pass is implemented in `measure(int, int)` and is a **top-down traversal of the View tree**. Each View pushes dimension specifications down the tree during the recursion. At the end of the measure pass, every View has stored its measurements. The second pass happens in `layout(int, int, int, int)` and is also top-down. During this pass each parent is responsible for positioning all of its children using the sizes computed in the measure pass.
 
+https://app.yinxiang.com/Home.action#n=b66e567f-73f6-49f1-9b1d-479411686eb9&ses=4&sh=2&sds=5&
+
 ##Android Studio使用
 2015.5.3 install the "IdeaVim" plugin in Android Studio, plan to learn vim.
-###sdk的目录结构
+###Tips and Tricks
+https://developer.android.com/sdk/installing/studio-tips.html
 ###学习android官方sample
 （也在sdk目录下)
 
