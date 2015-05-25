@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.navigation_layout);
+        setContentView(R.layout.navigation_layout); //search the codes of navigationDrawer layout
 
         setImmersiveMode();
 
